@@ -52,10 +52,10 @@ p {
 }
 
 a {
-  color: var(--link-color);
+  color: $link-color;
   text-decoration: none;
   &:hover {
-    color: var(--link-hover);
+    text-decoration: underline;
   }
 }
 
@@ -97,7 +97,7 @@ pre {
 
 code {
   line-height: 1.8;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
 table {
