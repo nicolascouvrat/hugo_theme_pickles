@@ -89,15 +89,25 @@ pre {
   display: block;
   padding: 12px;
   border-radius: 3px;
-  background-color: #f8f8f8;
+  background-color: #fdfdfd;
   font-size: 1.2rem;
   word-wrap: break-word;
   overflow: auto;
+  & code {
+    border: none;
+    white-space: none;
+    padding: 0;
+  }
 }
 
 code {
   line-height: 1.8;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
+  border: 1px solid #d3d3d3;
+  background-color: #fdfdfd;
+  border-radius: 5px;
+  white-space: pre;
+  padding: 0.1em 0.3em;
 }
 
 table {
