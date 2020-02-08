@@ -3,3 +3,11 @@
   padding: 20px 0;
   text-align: center;
 }
+
+.c-biglogo {
+  & img {
+    max-height: 200px;
+    width: auto;
+  }
+}
+
