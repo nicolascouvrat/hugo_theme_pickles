@@ -7,7 +7,7 @@ Pickles is a modern, simple and beautiful Hugo theme.
 ## Overview
 
 - Modern, Simple and beautiful design
-- Medium's Image Zoom（[zoom.js](https://github.com/fat/zoom.js/))
+- Medium's Image Zoom（[zooming](https://desmonding.me/zooming/docs/#/))
 - Social links（Twitter,Facebook,Instagram,Google+,GitHub,GitLab,npm,Codepen,Dribbble,500px,Flickr,Pinterest,Tumblr,Vimeo,YouTube,Linkedin）
 - Support for Related Content
 - Support for tags
@@ -64,6 +64,16 @@ $ cp themes/hugo_theme_pickles/exampleSite/config.toml .
 ```
 
 Now, you can start editing this file and add your own information!
+
+## Customisation
+
+To hide the date in any page or post, set the `hideDate` parameter in the front matter:
+
+```
+---
+hideDate: true
+---
+```
 
 ## Contributing
 
