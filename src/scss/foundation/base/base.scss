@@ -52,10 +52,10 @@ p {
 }
 
 a {
-  color: var(--link-color);
+  color: $link-color;
   text-decoration: none;
   &:hover {
-    color: var(--link-hover);
+    text-decoration: underline;
   }
 }
 
@@ -89,15 +89,39 @@ pre {
   display: block;
   padding: 12px;
   border-radius: 3px;
-  background-color: #f8f8f8;
+  background-color: #fdfdfd;
   font-size: 1.2rem;
   word-wrap: break-word;
   overflow: auto;
+
+  & code {
+    border: none;
+    white-space: none;
+    padding: 0;
+    background-color: inherit;
+  }
 }
 
 code {
   line-height: 1.8;
   font-size: 1.4rem;
+  border: 1px solid #d3d3d3;
+  background-color: #fdfdfd;
+  border-radius: 5px;
+  white-space: pre;
+  padding: 0.1em 0.3em;
+}
+
+hr {
+  border: none;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+
+  &:before{
+    content: "***";
+    letter-spacing: 0.6em;
+  }
 }
 
 table {
